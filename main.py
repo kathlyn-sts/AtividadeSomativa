@@ -18,3 +18,10 @@ if ope in ['+']:
 if ope in ['-']:
     print(num1-num2)
 
+if ope in ['*']:
+    print(num1*num2)
+
+if ope in ['/']:
+    print(num1/num2)
+
+
