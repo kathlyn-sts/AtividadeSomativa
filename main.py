@@ -12,3 +12,14 @@ while True:
         print("Oops!  That was no valid number.  Try again...")
        
             
+if ope in ['+']:
+    print(num1+num2)
+    
+if ope in ['-']:
+    print(num1-num2)
+
+if ope in ['*']:
+    print(num1*num2)
+
+if ope in ['/']:
+    print(num1/num2)
