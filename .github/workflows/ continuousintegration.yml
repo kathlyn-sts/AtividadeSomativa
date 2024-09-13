@@ -1,6 +1,10 @@
 name: Continuous Integration 
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push]
+on: 
+  push:
+    branches-ignore:
+      - 'dependabot/**'
+  pull_request:
 
 
 jobs:
@@ -14,3 +18,5 @@ jobs:
         uses: advanced-security/python-lint-code-scanning-action@v1.1.1
         with:
          linter: pylint 
+
+
