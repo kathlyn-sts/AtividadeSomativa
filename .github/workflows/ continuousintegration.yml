@@ -1,6 +1,6 @@
 name: Continuous Integration 
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: 
+on:  
   push:
     branches-ignore:
       - 'dependabot/**'
